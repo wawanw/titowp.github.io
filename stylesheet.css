@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 10px 0 10px 0;
+  background-size: cover;
+  background-color:#dfe6e9;
+  color: #8e44ad;
+  text-align: center;
+  font-familiy:cursive;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 1;
+  margin-bottom: 1px;
+  font-size: 20px;
+  font-style:italic;
+}
+
+.btn-wrapper {
+  margin: 10px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #c0392b;
+}
+
+.facebook {
+  background-color: #218c74;
+}
+
+.twitter {
+  background-color: #2980b9;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.lesson-wrapper {
+  height: 510px;
+  padding-bottom: 80px;
+  background-color:#dfe6e9;
+  /* Ubah property text-align ke center */
+  text-align:center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+/* Tambahkan CSS untuk lesson-icon */
+.lesson-icon {
+  position:relative;
+  animation-name: example;
+  animation-duration: 3s;
+  }
+
+@keyframes example {
+from {top: 200px;}
+to {top: 0px;}
+}
+}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+.lesson-icon p {
+  position:relative;
+  top:10px;
+  width:100%;
+  color:blue;
+  font-weight: bold;
+  font-family: cursive;
+  font-size:20px;
+
+}
+
+/* Tambahkan CSS untuk txt-contents */
+.txt-contents {
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+  color:#e74c3c;
+  font-family:sans-serif;
+  font-weight:bold;
+}
